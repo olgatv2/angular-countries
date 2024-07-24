@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CountriesRoutingModule } from './countries-routing.module';
+import { SharedModule } from '../shared/shared.module';
 
 
 
@@ -9,6 +10,7 @@ import { CountriesRoutingModule } from './countries-routing.module';
   imports: [
     CommonModule,
     CountriesRoutingModule,
+    SharedModule
   ]
 })
 export class CountriesModule { }
