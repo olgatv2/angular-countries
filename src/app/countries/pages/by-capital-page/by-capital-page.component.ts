@@ -10,4 +10,8 @@ import { SharedModule } from "../../../shared/shared.module";
 })
 export class ByCapitalPageComponent {
 
+  searchByCapital(term: string): void {
+    console.log('Desde ByCapitalPage')
+    console.log({term})
+  }
 }
