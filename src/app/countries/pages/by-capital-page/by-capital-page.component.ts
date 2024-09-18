@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { SharedModule } from "../../../shared/shared.module";
 import { CountriesService } from '../../services/countries.service';
-import { Country } from '../../interfaces/country';
+import { Country } from '../../interfaces/country.interface';
 
 @Component({
   selector: 'app-by-capital-page',
